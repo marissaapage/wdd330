@@ -9,6 +9,7 @@ body * {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 1.5em;
+    box-sizing: border-box;
 }
 
 h1,
@@ -59,4 +60,43 @@ nav ul {
     background-color: #1E494D;
     padding: 2em;
     color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #FFC94B;
+    padding: 0.5em;
+}
+
+th {
+    background-color: #FFC94B;
+    color: black;
+}
+
+.codeExamples pre {
+    font-family: monospace;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.codeExamples h4 {
+    margin-bottom: 0;
+    color: #F17A7E;
+    font-size: 14px;
+}
+
+.teamButton {
+    background-color: #FFC94B;
+    color: #1E494D;
+    border-radius: 3px;
+    padding: .5em;
+    display: block;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 12em;
 }

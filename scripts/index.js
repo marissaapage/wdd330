@@ -11,6 +11,14 @@ const links = [
     label: "Week3 notes",
     url: "/wdd330/week3/index.html",
   },
+  {
+    label: "Week4 notes",
+    url: "/wdd330/week4/index.html",
+  },
+  {
+    label: "Week5 notes",
+    url: "/wdd330/week5/index.html",
+  },
 ];
 
 let navList = document.querySelector("#navList");
